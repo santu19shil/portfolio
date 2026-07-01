@@ -233,31 +233,32 @@
         conversation about technology, I'd love to hear from you.
     </p>
 
-    <form class="contact-form">
+    <form class="contact-form" action="https://formspree.io/f/xaqgpnep" method="POST">
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+    >
 
-        <input
-            type="text"
-            placeholder="Your Name"
-            required
-        >
+    <input
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required
+    >
 
-        <input
-            type="email"
-            placeholder="Email Address"
-            required
-        >
+    <textarea
+        name="message"
+        rows="6"
+        placeholder="Your Message"
+        required
+    ></textarea>
 
-        <textarea
-            rows="6"
-            placeholder="Your Message"
-            required
-        ></textarea>
-
-        <button class="btn primary" type="submit">
-            Send Message
-        </button>
-
-    </form>
+    <button class="btn primary" type="submit">
+        Send Message
+    </button>
+</form>
 
     <ul class="contact-links">
 
